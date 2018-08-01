@@ -21,10 +21,23 @@ h1, h2, h3, h4, h5, h6 {
 #sidebar li {
   display: inline-block;
   padding: 20px;
+  color: blue;
 }
 
 #sidebar ul {
+  list-style: none;
   padding: 0px;
+  color: blue;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 20px;
+  color:#788188;
+}
+
+#sidebar i:hover {
+  color: white;
 }
 
 #page-content {
@@ -78,11 +91,6 @@ i {
  a {
   text-decoration: none;
   color : #ccc;
- }
-
- li:hover {
-  color: #DD5555;
-  text-decoration: none;
  }
 
 div {
@@ -150,6 +158,11 @@ button:hover {
   padding: 20px;
   border-radius: 4px;
   text-align: center;
+  }
+
+.card-red :hover {
+  color: white;
+  cursor: pointer;
   }
 
 #profile_picture {
