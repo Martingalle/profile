@@ -8,8 +8,32 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
 }
 
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#sidebar ul {
+  padding: 0px;
+}
+
+#page-content {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
 .container {
-  width: 600px;   /* This sets the width */
+  width: 800px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
